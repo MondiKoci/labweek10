@@ -97,11 +97,11 @@ export default class FormData extends Component {
                 <Form.Group as={Col} controlId="province">
                 <Form.Label>Province</Form.Label>
                 <p>
-                <RegionDropdown name="province" className="region"
+                <RegionDropdown className="region"
                 country={"Canada"}
                 value={this.state.province}
                 defaultOptionLabel={"Select Province"}
-                onChange={this.readName}/>
+                onChange={(val) => {this.selectProvince(val)}}/>
                 </p>
                 </Form.Group>
 
