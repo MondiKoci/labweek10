@@ -12,6 +12,84 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.region{
+  display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.dataTable{
+  grid-template-columns: 50% 50%;
+  color:red;
+  font-size:26px;
+  width:400px;
+  margin:0 auto;
+}
+.MainForm{
+margin-bottom:20px;
+}
+
+.spanItem {
+  width: 100%
+}
+.spanLeft{
+  float:right;
+  color:green;
+  text-align:right;
+  font-weight:600;
+  padding-right:5px;
+}
+.spanRight{
+  float:left;
+  color:#000000;
+}
+#rt{
+  display:none;
+}
+
+.chckSub{
+width:100%;
+max-width:260px;
+margin:0 auto;
+text-align:center;
+}
+.btnSubmit{
+  margin:0 auto;
+  text-align:center;
+}
+
+.dataContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin:0 auto;
+  width:500px;
+  font-size:18px;
+  font-family: "Bookman";
+}
+.dataContainer > div {
+  flex: 50%; /* or - flex: 0 50% - or - flex-basis: 50% - */
+  /*demo*/
+  margin-bottom: 10px;
+}
+
+.Main{
+  margin:0 auto;
+  width:100%;
+  max-width:800px;
+}
+
+.dataRender{
+  border:1px solid grey;
+  display:none;
+}
 
 .App-header {
   background-color: #282c34;
@@ -23,7 +101,9 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.mainHeader{
+  text-align:center
+}
 .App-link {
   color: #61dafb;
 }
